@@ -1,0 +1,13 @@
+{
+  "name": "alfred-change-case",
+  "version": "1.0.0",
+  "description": "An Alfred 3 workflow to change the case of the clipboard text.",
+  "main": "index.js",
+  "author": "derBingle <bing@derBingle.blog> (http://derBingle.blog)",
+  "license": "MIT",
+  "dependencies": {
+    "alfy": "^0.6.0",
+    "lodash": "^4.17.4",
+    "titlecase": "^1.1.2"
+  }
+}
