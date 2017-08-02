@@ -13,7 +13,7 @@ $ npm install --global alfred-change-case
 ## Usage
 Type `case` in the Alfred window, and choose the case you want to use. The original clipboard text will be overwritten with the same text in the new case.
 
-[!screenshot](/alfred-change-case-screenshot.png)
+<img src="/alfred-change-case-screenshot.png" width="694">
 
 ## Credits
 
