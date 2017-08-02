@@ -12,7 +12,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>28C7BBD8-A574-43E1-B90B-5F9E97EF6FF7</string>
+				<string>B4244AEB-5F21-4D0A-81A2-25A07E64E043</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -47,6 +47,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>B4244AEB-5F21-4D0A-81A2-25A07E64E043</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>28C7BBD8-A574-43E1-B90B-5F9E97EF6FF7</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 	</dict>
 	<key>createdby</key>
 	<string>derBingle</string>
@@ -58,6 +71,52 @@
 	<string>Change Case</string>
 	<key>objects</key>
 	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<true/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>8A038A4C-D9FE-4AEA-99AA-C92AE1761F29</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>fixedorder</key>
+				<false/>
+				<key>items</key>
+				<string>[{"imagefile":"498622f2fba67c40d9b2c63869a8f647973537e2.png","title":"Title Case","arg":"title","subtitle":"Five Passengers Set Sail That Day for a Three Hour Tour"},{"imagefile":"49a6efe46f7c0d85930c96275265f9651b86719f.png","title":"Upper","arg":"upper","subtitle":"FIVE PASSENGERS SET SAIL THAT DAY FOR A THREE HOUR TOUR"},{"imagefile":"92bdbc1b05b412adc2ac752cece24167c417ae83.png","title":"Lower","arg":"lower","subtitle":"five passengers set sail that day for a three hour tour"},{"imagefile":"85eb13f085f7a1b284ec2c868ed5a9d9f9066a53.png","title":"Camel","arg":"camel","subtitle":"aThreeHourTour"},{"imagefile":"2fc7a1dccaa917c5c82b662877cebfa7cdfb4078.png","title":"Snake","arg":"snake","subtitle":"a_three_hour_tour"},{"imagefile":"4010e0e32f7c755293306b2cba088275d096cbec.png","title":"Kebab","arg":"kebab","subtitle":"a-three-hour-tour"}]</string>
+				<key>keyword</key>
+				<string>case</string>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string></string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.listfilter</string>
+			<key>uid</key>
+			<string>A519BCF4-F0D8-402F-902D-C5E4F064E44A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -84,52 +143,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>autopaste</key>
-				<false/>
-				<key>clipboardtext</key>
-				<string>{query}</string>
-				<key>transient</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
-			<key>uid</key>
-			<string>8A038A4C-D9FE-4AEA-99AA-C92AE1761F29</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttrimmode</key>
-				<integer>0</integer>
-				<key>argumenttype</key>
-				<integer>1</integer>
-				<key>fixedorder</key>
-				<false/>
-				<key>items</key>
-				<string>[{"title":"Title Case","arg":"title","subtitle":"Five Passengers Set Sail That Day for a Three Hour Tour"},{"title":"Upper","arg":"upper","subtitle":"FIVE PASSENGERS SET SAIL THAT DAY FOR A THREE HOUR TOUR"},{"title":"Lower","arg":"lower","subtitle":"five passengers set sail that day for a three hour tour"},{"title":"Camel","arg":"camel","subtitle":"aThreeHourTour"},{"title":"Snake","arg":"snake","subtitle":"a_three_hour_tour"},{"title":"Kebab","arg":"kebab","subtitle":"a-three-hour-tour"}]</string>
-				<key>keyword</key>
-				<string>case</string>
-				<key>runningsubtext</key>
-				<string></string>
-				<key>subtext</key>
-				<string></string>
-				<key>title</key>
-				<string></string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.listfilter</string>
-			<key>uid</key>
-			<string>A519BCF4-F0D8-402F-902D-C5E4F064E44A</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>argument</key>
 				<string></string>
 				<key>variables</key>
@@ -147,6 +160,14 @@
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
+		<dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.junction</string>
+			<key>uid</key>
+			<string>B4244AEB-5F21-4D0A-81A2-25A07E64E043</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
@@ -155,21 +176,21 @@
 		<key>2511F009-F9C1-43D7-87D5-6CE830C83BE7</key>
 		<dict>
 			<key>xpos</key>
-			<integer>230</integer>
+			<integer>260</integer>
 			<key>ypos</key>
 			<integer>310</integer>
 		</dict>
 		<key>28C7BBD8-A574-43E1-B90B-5F9E97EF6FF7</key>
 		<dict>
 			<key>xpos</key>
-			<integer>350</integer>
+			<integer>600</integer>
 			<key>ypos</key>
 			<integer>280</integer>
 		</dict>
 		<key>8A038A4C-D9FE-4AEA-99AA-C92AE1761F29</key>
 		<dict>
 			<key>xpos</key>
-			<integer>590</integer>
+			<integer>840</integer>
 			<key>ypos</key>
 			<integer>280</integer>
 		</dict>
@@ -179,6 +200,13 @@
 			<integer>10</integer>
 			<key>ypos</key>
 			<integer>280</integer>
+		</dict>
+		<key>B4244AEB-5F21-4D0A-81A2-25A07E64E043</key>
+		<dict>
+			<key>xpos</key>
+			<integer>450</integer>
+			<key>ypos</key>
+			<integer>310</integer>
 		</dict>
 	</dict>
 	<key>webaddress</key>
