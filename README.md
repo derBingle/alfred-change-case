@@ -1,23 +1,27 @@
 # alfred-change-case
 > A simple Alfred workflow to change the case of the clipboard text.
 
-## Installation
 
-Pretty simple - just download the Alfred Workflow, and open to import!
+## Install
 
-**Note:** Requires nodejs be installed on your computer.
+```
+$ npm install --global alfred-change-case
+```
+*Requires [Node.js](https://nodejs.org) and the Alfred [Powerpack](https://www.alfredapp.com/powerpack/).*
+
 
 ## Usage
 Type `case` in the Alfred window, and choose the case you want to use. The original clipboard text will be overwritten with the same text in the new case.
 
+
 ## Credits
 
--  `titlecase` is used for—wait for it—the title case. Rather than just capitalizing all words, it conforms to standard English title case usage for articles, etc.
+-  [`titlecase`](https://www.npmjs.com/package/titlecase) is used for... switching to title case. Rather than just capitalizing all words, it conforms to standard English title case usage for articles, etc.
 
--  Lodash is used for all other cases.
+-  [lodash](lodash.com) is used for all other cases.
 
--  Alfy is used to install via npm.
+-  [`alfred-link`](https://github.com/samverschueren/alfred-link) is used to install via npm.
 
 ## License
 
-MIT
+MIT © [Luke Wilson](http://derbingle.blog)
