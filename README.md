@@ -18,7 +18,7 @@ Type `case` in the Alfred window, and choose the case you want to use. The origi
 
 -  [`titlecase`](https://www.npmjs.com/package/titlecase) is used for... switching to title case. Rather than just capitalizing all words, it conforms to standard English title case usage for articles, etc.
 
--  [lodash](lodash.com) is used for all other cases.
+-  [`lodash`](lodash.com) is used for all other cases.
 
 -  [`alfred-link`](https://github.com/samverschueren/alfred-link) is used to install via npm.
 
