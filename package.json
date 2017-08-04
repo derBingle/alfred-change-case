@@ -7,6 +7,7 @@
   "dependencies": {
     "alfred-link": "^0.2.0",
     "lodash": "^4.17.4",
+    "run-node": "^0.1.1",
     "titlecase": "^1.1.2"
   },
   "author": {
