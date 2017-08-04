@@ -23,6 +23,8 @@ Type `case` in the Alfred window, and choose the case you want to use. The origi
 
 -  [`alfred-link`](https://github.com/samverschueren/alfred-link) is used to install via npm.
 
+-  [`run-node`](https://github.com/sindresorhus/run-node) is used to find & run user's version of node.
+
 ## License
 
 MIT © [Luke Wilson](http://derbingle.blog)
