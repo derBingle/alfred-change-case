@@ -3,15 +3,12 @@
 
 
 ## Install
-
-```
-$ npm install --global alfred-change-case
-```
-*Requires [Node.js](https://nodejs.org) and the Alfred [Powerpack](https://www.alfredapp.com/powerpack/).*
+Just [download the Alfred workflow](https://github.com/derBingle/alfred-change-case/blob/master/alfred-change-case.alfredworkflow?raw=true) from Github, and double click the file to install in Alfred.
+*Requires internet access and the Alfred [Powerpack](https://www.alfredapp.com/powerpack/).*
 
 
 ## Usage
-Type `case` in the Alfred window, and choose the case you want to use. The original clipboard text will be overwritten with the same text in the new case.
+Type `case` in the Alfred window, and choose the case you want to use. The original clipboard text will be overwritten with the same text in the new case, and the text will be automatically pasted into the frontmost app. If you don't want this behavior, you can turn it off in the last node in the workflow canvas.
 
 <img src="/alfred-change-case-screenshot.png" width="694">
 
@@ -21,9 +18,8 @@ Type `case` in the Alfred window, and choose the case you want to use. The origi
 
 -  [`lodash`](lodash.com) is used for all other cases.
 
--  [`alfred-link`](https://github.com/samverschueren/alfred-link) is used to install via npm.
+-  [`zeit/now`](https://zeit.co/blog/micro-8) is used to host the code for switching cases.
 
--  [`run-node`](https://github.com/sindresorhus/run-node) is used to find & run user's version of node.
 
 ## License
 
